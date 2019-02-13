@@ -1,0 +1,33 @@
+.h1{
+	color: red;
+	text-decoration: underline;
+}
+.div {
+	font-family: fantasy;
+}
+.head{
+	font-family: cursive;
+}
+.article__head{
+	text-transform: uppercase;
+	color: red;
+}
+.article__text{
+
+}
+.check{
+    list-style: none;
+}
+.check > li{
+    padding-left: 20px;
+    position: relative;
+    margin: 10px;
+}
+.check > li:before{
+    content: '✔';
+    position: absolute; top: 0; left: 0;
+    color: red;
+  }
+  .aside__head{
+  	color: orange;
+  }
